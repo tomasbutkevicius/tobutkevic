@@ -6,9 +6,9 @@ This project was created to show best practises of running a development/testing
 
 ## Development
 
-Run `./gradlew bootRun --args='--spring.data.mongodb.uri=Your monggo db url'`
+Run `./gradlew bootRun --args='--MONGODB_URI=Your monggo db url'`
 or set environment variable to
-`spring.data.mongodb.uri=Your mongo db url`
+`MONGODB_URI=Your monggo db url`
 
 After successful start navigate to `http://localhost:8080/`. You have to reboot application to test new changes.
 
